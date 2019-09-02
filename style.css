@@ -6,12 +6,15 @@ body {
   margin-top: 0px;
 }
 
-td {
+td,table {
   border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+
 }
 
 
-
+Menubalk
 
 .header {
   margin: 0;
@@ -43,7 +46,32 @@ td {
 }
 
 
+Dashboard
 
 .lijst {
   margin-left: 20px;
+}
+
+.voldoende {
+  background-color: green
+}
+
+.onvoldoende {
+  background-color: red
+}
+
+.rechts {
+  float: right;
+  margin-right: 10%;
+  width: 30%;
+}
+
+.nbsa {
+  border: 1px solid black;
+  text-align:center;
+}
+
+.studiewijzer {
+  text-align: left;
+  padding-top: 40%;
 }

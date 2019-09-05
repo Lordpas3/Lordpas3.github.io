@@ -10,7 +10,11 @@ td,table {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 5px;
+}
 
+th {
+  background-color: black;
+  color: white;
 }
 
 
@@ -46,7 +50,7 @@ Menubalk
 }
 
 
-Dashboard
+/* Dashboard */
 
 .lijst {
   margin-left: 20px;
@@ -74,4 +78,46 @@ Dashboard
 .studiewijzer {
   text-align: left;
   padding-top: 40%;
+}
+
+
+
+
+
+#rgb-border {
+  border:5px solid black;
+  animation-name: rgbborder;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rgbborder {
+  0%    {border-color: rgb(255, 0, 0);}
+  33%   {border-color: rgb(0, 255, 0);}
+  66%  {border-color: rgb(0, 0, 255);}
+  100%  {border-color: rgb(255,0,0);}
+}
+
+
+#steam {
+  position: relative;
+  top: 12em;
+  right: 2em;
+}
+
+.box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.index {
+  box-sizing: border-box;
+  width: 40%;
+  height: 20em;
+  border: 2px solid black;
+  margin: 1em;
+  background-color: #ededed;
+  padding-left: 1%;
+  padding-right: 1%;
 }

@@ -18,7 +18,7 @@ th {
 }
 
 
-Menubalk
+/* Menubalk */
 
 .header {
   margin: 0;
@@ -81,8 +81,7 @@ Menubalk
 }
 
 
-
-
+/* profile */
 
 #rgb-border {
   border:5px solid black;
@@ -98,21 +97,22 @@ Menubalk
   100%  {border-color: rgb(255,0,0);}
 }
 
-
 #steam {
   position: relative;
   top: 12em;
   right: 2em;
 }
 
+
+/* Index */
+
 .box {
   display: flex;
   justify-content: flex-start;
 }
 
-
 .index {
-  box-sizing: border-box;
+  box-sizing: content-box;
   width: 40%;
   height: 20em;
   border: 2px solid black;
@@ -121,3 +121,25 @@ Menubalk
   padding-left: 1%;
   padding-right: 1%;
 }
+
+
+/* Motivatie */
+
+.bronnen {
+  border: 2px solid black;
+  margin: 1em;
+  padding: 0% 1% 0.5% 1%;
+  background-color: #ededed;
+  box-sizing: content-box;
+  width: 40%;
+}
+
+.motivatie {
+  border: 2px solid black;
+  margin: 0.5em 30em 0.5em 1em;
+  padding: 0% 1% 0.5% 1%;
+  background-color: #ededed;
+  box-sizing: content-box;
+}
+
+/* INDEX MARGIN IPV WIDTH */

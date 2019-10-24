@@ -17,7 +17,9 @@ th {
   color: white;
 }
 
-
+h1 {
+  margin-top: 30px;
+}
 /* Menubalk */
 
 .header {
@@ -142,4 +144,6 @@ th {
   box-sizing: content-box;
 }
 
-/* INDEX MARGIN IPV WIDTH */
+.beroepsPlaatjes {
+  border: 2px solid black;
+}
